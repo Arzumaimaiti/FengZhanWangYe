@@ -1,0 +1,171 @@
+/*蜂站logo-背景框不动*/
+.sticky{
+	position:-webkit-sticky;
+	position:sticky;
+	top:0;
+	height:80px;
+	width:1500px;
+	background-color:white;
+	border-style:inset;
+	z-index: 1;}
+
+/*列表框*/
+.liebiao{
+	position:absolute;
+	left:1000px;
+	top:41px;}
+
+/*红色logo*/
+.logo{
+	position:absolute;
+	left:400px;
+	top:160px;}
+
+/*公司名称框*/
+.xiaokuang{
+	height:80px;
+	width:350px;
+	background-color:#DCDCDC;line-height:80px;
+	text-align:center;
+	position:relative;
+	left:250px;}
+
+/*公司代表图及字体*/	
+.gongsitu{
+	position:absolute;
+	left: 200px;
+	height: 500px;
+	width: 300px;
+	align:middle;
+	margin:400px;}
+
+/*公司简介*/	
+.gongsijianjie{
+	margin-left:230px;
+	margin-right:200px;}
+
+/*运营方案*/
+.zhongkuang{
+	height:100px;
+	width:1500px;
+	background-color:#DCDCDC;line-height:80px;
+	text-align:center;}
+
+/*表*/
+.biao{
+	display: table;
+	border-spacing: 10px;}
+
+/*行*/
+.hang{
+	display: table-row;}
+
+
+/*列-方案图1 */
+.fangan1{
+	display: table-cell;
+	padding: 70px;
+	vertical-align: top;}
+
+/*方案图2 */
+.fangan2{
+	display: table-cell;
+	padding: 70px;
+	vertical-align: top;}
+
+/*方案图3 */
+.fangan3{
+	display: table-cell;
+	padding: 70px;
+	vertical-align: top;}
+
+/*方案图4 */
+.fangan4{
+	display: table-cell;
+	padding: 70px;
+	vertical-align: top;}
+
+/*合作*/
+.hezuo{
+	height:50px;
+	width:150px;
+	border:2px solid;
+	border-radius:25px;
+	background-color:#DCDCDC;line-height:30px;
+	text-align:center;
+	position:relative;
+	left:400px;}
+
+/*合作伙伴*/	
+.hezuotu{
+	position:relative;
+	left: 500px;
+	height: 250px;
+	width: 300px;
+	margin:30px;}
+
+/*尾*/
+.footer{
+	height:300px;
+	width:1500px;
+	left: 200px;
+	background-color:#717172;
+	text-align:center;}
+
+
+/*头—— 下拉按钮 */
+.dropbtn {
+background-color:white ;
+font-family:Serif;
+color: black;
+padding: 12px 25px;/*所有四个填充*/
+font-size: 14px;
+cursor: pointer;/*光标-手指*/
+boder-style:ridge;}
+
+
+/* 容器 <div> - 需要定位下拉内容 */
+.dropdown {
+position: relative;/*定位-相对定位*/
+display: inline-block;/*段落生成一个行内框-块元素*/
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+right:0;
+display: none;
+position: absolute;/*定位-绝对定位*/
+background-color：white;
+min-width: 100px;/*设置段落最小宽度*/
+box-shadow: 0px 8px 16px 0px rgb(245, 3, 3);/*添加阴影*/
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content a {
+color: white;
+padding: 10px 12px;
+text-decoration: none;
+display: block;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {background-color: #808080;}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+.dropdown:hover .dropbtn {
+background-color: #FA8072;
+}
+</div>
+			
+body{
+background-color:black;
+margin-left:10%;
+margin-right:10%;
+font-family:fantasy;
+}
+
